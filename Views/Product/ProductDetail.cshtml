@@ -1,0 +1,21 @@
+@model ViewModels
+
+<div class="header">
+    @Model.ProductModel.Name
+</div>
+
+<div class="item-list">
+    <div class="block-title">
+        Categories
+    </div>
+    @foreach(var ProdRel in @Model.ProductModel.ProdRel)
+    {
+        <p>
+            @ProdRel.Categories.name
+        </p>
+    }
+</div>
+
+<div class="form-div">   
+    <partial name="_addCategory.cshtml" model="@Model"/>
+</div>

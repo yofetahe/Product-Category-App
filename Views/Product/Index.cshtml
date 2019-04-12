@@ -1,0 +1,22 @@
+﻿@model ViewModels
+<div class="header">
+    Products | <a href="GetCategoriesList">Categories</a>
+</div>
+
+<div class="form-div">
+    <partial name="_createProduct.cshtml" model="@Model.ProductModel"/>
+</div>
+
+<div class="item-list">
+    <div class="block-title">
+        Existing Products
+    </div>
+    @foreach(var product in Model.Products)
+    {
+        <div class="list-group">
+            <a href="GetProductDetail/@product.ProductId" class="list-group-item list-group-item-action">
+                @product.Name
+            </a>
+        </div>
+    }
+</div>
