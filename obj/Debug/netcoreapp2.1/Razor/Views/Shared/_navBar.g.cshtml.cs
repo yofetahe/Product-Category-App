@@ -77,7 +77,7 @@ using ProductsCategories.Models;
     ");
             EndContext();
             BeginContext(941, 222, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4a4f62d3a4f14269aa43816d501ab81a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fff0452417e24a2881c5c86df3cb4165", async() => {
                 BeginContext(980, 176, true);
                 WriteLiteral("\r\n      <!-- <input class=\"form-control mr-sm-2\" type=\"text\" placeholder=\"Search\">\r\n      <button class=\"btn btn-secondary my-2 my-sm-0\" type=\"submit\">Search</button> -->\r\n    ");
                 EndContext();

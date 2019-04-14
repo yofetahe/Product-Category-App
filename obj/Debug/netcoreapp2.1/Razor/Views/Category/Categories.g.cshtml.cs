@@ -54,7 +54,7 @@ using ProductsCategories.Models;
             WriteLiteral("<div class=\"header\">\r\n    <a href=\"/\">Products</a> | Categories\r\n</div>\r\n\r\n<div class=\"form-div\">\r\n    ");
             EndContext();
             BeginContext(122, 71, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d4b22ae4054742c7b1fb8ff9ce094dc5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d00e2f0b81e34e6c8f2431a9f78df973", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();

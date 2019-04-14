@@ -1,0 +1,22 @@
+@model ViewModels
+
+<div class="block-title">
+    New Product
+</div>
+<form action="/SaveCategoryProductRel/@Model.CategoryModel.CategoryId" method="POST">
+    
+    <div class="form-group">
+        <span asp-validation-for="@Model.ProductModel.ProductId" class="errorMessage"></span>
+        <label asp-for="@Model.ProductModel.ProductId"></label>
+        <select asp-for="@Model.ProductModel.ProductId" class="form-control">
+            @foreach (var pro in @Model.Products)
+            {
+                <option value="@pro.ProductId">
+                    @pro.Name
+                </option>
+            }
+        </select>
+    </div>
+
+    <button class="btn btn-primary">Add</button>
+</form>

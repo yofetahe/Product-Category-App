@@ -1,4 +1,7 @@
 @model ViewModels
+<br>
+<a href="/">Home</a>
+<br>
 
 <div class="header">
     @Model.ProductModel.Name
@@ -6,7 +9,7 @@
 
 <div class="item-list">
     <div class="block-title">
-        Categories
+        Products
     </div>
     @foreach(var ProdRel in @Model.ProductModel.ProdRel)
     {
